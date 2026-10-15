@@ -5,7 +5,7 @@ const testEnv = process.env.TEST_ENV || 'local';
 console.log(`Running unit tests (TEST_ENV=${testEnv})`);
 
 // Test 1: basic sanity check
-assert.equal(1 + 1, 2);
+assert.equal(1 + 1, 3);
 console.log('✔ 1 + 1 equals 2');
 
 // Test 2: release tags follow the pipeline format (e.g. dev-v1.5)
